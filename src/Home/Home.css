@@ -1,0 +1,113 @@
+.section-home-info {
+    background-color: var(--primary);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-home-info > h2 {
+    color: var(--complementary-1);
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  .section-home-articles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  
+  
+  }
+  .section-home-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    min-width: 300px;
+  
+  }
+  .section-home-article > h4 {
+    color: white;
+    padding: 20px;
+    line-height: 1.5;
+  }
+  .section-home-categories {
+    background-color: var(--secondary);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section-home-categories > h2 {
+    color: var(--primary);
+    font-weight: 800;
+    margin-bottom: 20px;
+  }
+  #courses-menu {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .courses-menu-item {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: 800;
+    font-size: 24px;
+    margin: 20px;
+    height: 200px;
+    width: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all .9 ease;
+    position: relative;
+  }
+  
+  .courses-menu-item:hover:before {
+    content:'';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    text-decoration:line-through;
+  }
+  
+  #courses-menu-inf {
+    background-image: url("../static/infantil1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #courses-menu-pri {
+    background-image: url("../static/primaria1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #courses-menu-sec {
+    background-image: url("../static/secundaria2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #courses-menu-bach {
+    background-image: url("../static/bachiller1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }

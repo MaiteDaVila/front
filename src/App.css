@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+body
+{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.App {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  font-family: "Lato", "Arial Narrow", Arial, sans-serif;
+}
+
+:root {
+  --primary: #0a3143;
+  --secondary: #f1ece7;
+  --secondary-dark: #c4c4c4;
+  --complementary-1: #f2aa1f;
+  --complementary-2: #f2451f;
+  --complementary-3: #4a855e;
+  --bg-button: #845b0e;
+  --white: #ffffff;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}

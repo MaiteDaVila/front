@@ -1,0 +1,96 @@
+.search-form {
+    width: 100hh;
+    height: 35vh;
+    background-image: url("/src/static/bg1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .search-form > h2 {
+    color: var(--secondary);
+    text-align:center;
+    line-height:1.5;
+  }
+  .search-form--wrapper {
+    outline: none;
+    height: auto;
+    width: 320px;
+    max-width: 100%;
+    overflow: hidden;
+    background: transparent;
+    margin: 0;
+  }
+  
+  .search-form-form {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .search-form-input-wrapper {
+    padding: 0 66px 0 0; /* Right padding for submit button width */
+    overflow: hidden;
+  }
+  
+  .search-form-input {
+    width: 100%;
+  }
+  
+  .search-form-input {
+    background-color: var(--secondary-dark);
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 50px;
+    padding: 0 46px 0 10px;
+    border-radius: 35px; /* (height/2) + border-width */
+    border: none;
+    margin-top: 15px;
+    font-weight: 700;
+    color: #333;
+    font-size: 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .search-form-submit {
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    margin-top: 8px; /* margin-top + border-width */
+    margin-right: 10px; /* border-width */
+    background: transparent;
+    color: var(--secondary);
+    font-size: 30px;
+    line-height: 60px;
+  }
+  
+  .search-form-input:focus {
+    outline: none;
+    border-color: #333;
+  }
+  
+  .searchform-submit:hover {
+    color: #333;
+    cursor: pointer;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;
+    margin-left: 10px;
+  }
+  
+  input:-moz-placeholder {
+    color: #888;
+  }

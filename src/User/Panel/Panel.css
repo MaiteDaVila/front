@@ -1,0 +1,19 @@
+.panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.panel .user.option {
+    margin: 15px;
+}
+
+.panel-menu-left{
+ background-color: var(--secondary-dark);
+ width: 40hh;
+}
+.panel-menu-left li{
+    list-style: none;
+    color: var(--primary) ;
+    font-weight: 700;
+
+}
